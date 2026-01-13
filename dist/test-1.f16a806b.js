@@ -759,7 +759,7 @@ async function renderChart() {
             scales: {
                 y: {
                     type: _testJs.yType,
-                    grace: '10%',
+                    grace: "10%",
                     ticks: {
                         stepSize: _testJs.yValue,
                         callback: (value)=>value.toFixed(2) + "\xb0C"
